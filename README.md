@@ -10,33 +10,7 @@ This flutter plugin is a wrapper around our Android and iOS SDKs.
 
 To know more about Razorpay payment flow and steps involved, read up here: [https://razorpay.com/docs/](https://razorpay.com/docs/)
 
-## Installation
 
-
-
-
-
-
-
-**Note for iOS**: Make sure that the minimum deployment target for your app is iOS 10.0 or higher. Also, don't forget to enable bitcode for your project.
-
-Run `flutter packages get` in the root directory of your app.
-
-## Usage
-
-Sample code to integrate can be found in [example/lib/main.dart](example/lib/main.dart).
-
-#### Import package 
-
-```dart
-import 'package:razorpay_flutter/razorpay_flutter.dart';
-```
-
-#### Create Razorpay instance
-
-```dart
-_razorpay = Razorpay();
-```
 
 #### Attach event listeners
 
