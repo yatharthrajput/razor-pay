@@ -22,12 +22,7 @@ razorpay_flutter: ^1.2.0
 
 **Note for Android**: Make sure that the minimum API level for your app is 19 or higher.
 
-### Pro *Annotation*
--dontwarn com.razorpay.**
--keep class com.razorpay.** {*;}
--optimizations !method/inlining/
--keepclasseswithmembers class * {
-  public void onPayment*(...);
+
 }
 ```
 
