@@ -22,10 +22,7 @@ razorpay_flutter: ^1.2.0
 
 **Note for Android**: Make sure that the minimum API level for your app is 19 or higher.
 
-### Proguard rules
-If you are using proguard for your builds, you need to add following lines to proguard files
-```
--keepattributes *Annotation*
+### Pro *Annotation*
 -dontwarn com.razorpay.**
 -keep class com.razorpay.** {*;}
 -optimizations !method/inlining/
