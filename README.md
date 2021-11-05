@@ -13,11 +13,6 @@ To know more about Razorpay payment flow and steps involved, read up here: [http
 ## Installation
 
 
-Add this to `dependencies` in your app's `pubspec.yml`
-
-```yaml
-razorpay_flutter: ^1.2.0
-```
 
 
 
