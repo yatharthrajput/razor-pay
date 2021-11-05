@@ -73,11 +73,6 @@ _razorpay.on(Razorpay.EVENT_EXTERNAL_WALLET, _handleExternalWallet);
 
 The handlers would be defined somewhere as
 
-```dart
-
-void _handlePaymentSuccess(PaymentSuccessResponse response) {
-  // Do something when payment succeeds
-}
 
 void _handlePaymentError(PaymentFailureResponse response) {
   // Do something when payment fails
