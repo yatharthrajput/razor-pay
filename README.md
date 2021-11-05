@@ -34,7 +34,7 @@ If you are using proguard for your builds, you need to add following lines to pr
 }
 ```
 
-Follow [this](https://github.com/razorpay/razorpay-flutter/issues/42#issuecomment-550161626) for more details.
+
 
 **Note for iOS**: Make sure that the minimum deployment target for your app is iOS 10.0 or higher. Also, don't forget to enable bitcode for your project.
 
