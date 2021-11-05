@@ -19,11 +19,7 @@ Add this to `dependencies` in your app's `pubspec.yml`
 razorpay_flutter: ^1.2.0
 ```
 
-**Note for Android**: Make sure that the minimum API level for your app is 19 or higher.
 
-
-}
-```
 
 
 
