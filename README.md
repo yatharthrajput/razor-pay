@@ -185,23 +185,5 @@ Check the signatures of the callbacks for payment events. They should match the 
 
 ## API
 
-### Razorpay
-
-#### open(map<String, dynamic> options)
-
-Open Razorpay Checkout. 
-
-The `options` map has `key` as a required property. All other properties are optional. 
-For a complete list of options, please see [the Checkout documentation](https://razorpay.com/docs/payment-gateway/integrations-guide/checkout/standard/#checkout-form).
-
-#### on(String eventName, Function listener)
-
-Register event listeners for payment events.
-
-- `eventName`: The name of the event.
-- `listener`: The function to be called. The listener should accept a single argument of the following type:
-  - [`PaymentSuccessResponse`](#paymentsuccessresponse) for `EVENT_PAYMENT_SUCCESS`
-  - [`PaymentFailureResponse`](#paymentfailureresponse) for `EVENT_PAYMENT_FAILURE`
-  - [`ExternalWalletResponse`](#externalwalletresponse) for `EVENT_EXTERNAL_WALLET`
 
 
